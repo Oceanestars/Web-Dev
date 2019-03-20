@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono');
+body{
+	background: white;
+}
+/*
+How to do speec https://codingislove.com/css-speech-bubbles/
+*/
+
+.box1 {
+  width: 50%;
+	margin:auto;
+  border: 4px solid black;
+  padding: 20px ;
+  text-align: center;
+  color: black;
+  font-family: 'Share Tech Mono',Arial;
+}
+.row{
+				display:flex;
+				width: 100%;
+				margin: auto;
+			}
+.column {
+			  flex: 25%;
+				border-radius: 10px;
+				border-color: black;
+				padding: 30px;
+				margin: auto;
+			}
+figure{
+	font-family:  'Share Tech Mono',arial;
+	display: block;
+	margin: auto;
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+a.button {
+  background-color: black;
+  border: white;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-family: 'Share Tech Mono',Arial;
+  display: inline-block;
+  font-size: 16px;
+  margin: 40px 20px;
+  cursor: pointer;
+}
+ul{
+/*margin-top: 10px;*/
+font-family:  'Share Tech Mono',arial;
+display: block;
+margin-top: -80px;
+width: 100%;
+height: 100%;
+position: relative;
+line-height: 30px;
+}
+
+figure figcaption{
+	color: black;
+	font-family:  'Share Tech Mono',Arial;
+	text-align: center;
+	margin-top: 20px;
+	position:relative;
+}

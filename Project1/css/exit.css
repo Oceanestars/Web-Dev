@@ -1,0 +1,115 @@
+/*exit css*/
+@import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono');
+
+body{
+  color: white;
+  font-family: 'Share Tech Mono', monospace;
+  background-color: black;
+}
+a.button {
+  background-color: white;
+  border: white;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  font-family: 'Share Tech Mono',Arial;
+  display: inline-block;
+  font-size: 16px;
+  margin: 40px 20px;
+  cursor: pointer;
+}
+
+.css-typing p{
+  font-family: 'Share Tech Mono', monospace;
+
+  font-size: 14px;
+  width: 50em;
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-animation: type 5s steps(40, end);
+  animation: type 5s steps(40, end),blinkTextCursor 500ms steps(44) infinite normal;
+}
+
+.css-typing p:nth-child(2) {
+  white-space: nowrap;
+  overflow: hidden;
+  opacity: 0;
+  -webkit-animation: type 5s steps(40, end);
+  animation: type2 5s steps(40, end);
+  -webkit-animation-delay: 5s;
+  animation-delay: 2s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+
+}
+
+
+@keyframes type {
+  from {
+    width: 0;
+  }
+}
+
+@-webkit-keyframes type {
+  from {
+    width: 0;
+  }
+}
+
+span {
+  animation: blink 2s infinite;
+}
+
+@keyframes type2 {
+  0% {
+    width: 0;
+  }
+  from {
+    opacity: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  to {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes type2 {
+  0% {
+    width: 0;
+  }
+  from {
+    opacity: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  to {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+@keyframes blinking-cursor {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
+}
+/*@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}*/
+/*
+@font-face {
+    font-family: 'heavy_data';
+    src: url('heavy_data.ttf');
+
+    font-weight: normal;
+    font-style: normal;
+}*/
