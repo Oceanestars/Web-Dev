@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+body {
+
+  background-image: url("back.png");
+  color: black;
+  text-align: center;
+  /*display: flex;*/
+  margin-top: auto;
+  font-family: Dosis,roboto, Amatic SC,cursive,sans-serif;
+  font-size: 30px;
+
+background-size : 100% auto
+
+}
+
+#gamedisplay{
+  color: black;
+  text-align: center;
+  /*display: flex;*/
+  margin-top: auto;
+  font-family: Dosis,roboto, Amatic SC,cursive,sans-serif;
+  font-size: 30px;
+}

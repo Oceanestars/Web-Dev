@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+body {
+
+
+  color:black;
+  text-align: center;
+  /*display: flex;*/
+  margin-top: auto;
+  font-family: Dosis,Amatic SC,cursive,sans-serif;
+  font-size: 30px;
+
+}
+
+.score{
+
+  margin: auto;
+}
+#paper, #scissor,#rock{
+  cursor:pointer;
+  margin: auto 30px;
+}
+#paper:hover{
+  background: #EEEBEB;
+}
+#scissor:hover{
+  background: #EEEBEB;
+}
+#rock:hover{
+  background: #EEEBEB;
+}
