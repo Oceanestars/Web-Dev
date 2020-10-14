@@ -1,0 +1,231 @@
+/*honor page css*/
+
+@import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono');
+body{
+  background-image: url("../img/confetti.gif");
+  background-size: 1200px;
+  font-family: 'Share Tech Mono',Arial;
+  color: black;
+}
+.row{
+  display:flex;
+
+}
+.column {
+  flex: 50%;
+
+}
+.box1 {
+  width: 50%;
+	margin:auto;
+  border: 4px solid black;
+  padding: 20px ;
+  text-align: center;
+  color: black;
+  font-family: 'Share Tech Mono',Arial;
+}
+
+figure{
+  display: block;
+  margin-left: 350px;
+  margin-right: 200px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  width: 1000px;
+  height: auto;
+}
+a.button {
+  background-color: black;
+  border: white;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-family: 'Share Tech Mono',Arial;
+  display: inline-block;
+  font-size: 16px;
+  margin: 40px 20px;
+  cursor: pointer;
+}
+.css-typing p{
+  font-family: 'Share Tech Mono', monospace;
+  margin-left: 400px;
+  /*margin-right: -700px;*/
+  margin-top: 10px;
+  font-size: 20px;
+  width: 50em;
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-animation: type 5s steps(40, end);
+  animation: type 5s steps(40, end),blinkTextCursor 500ms steps(44) infinite normal;
+}
+.css-typing p:nth-child(2) {
+  white-space: nowrap;
+  overflow: hidden;
+  opacity: 0;
+  -webkit-animation: type 4s steps(40, end);
+  animation: type2 4s steps(40, end);
+  -webkit-animation-delay: 4s;
+  animation-delay: 2s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+
+}
+
+.css-typing p:nth-child(3) {
+  white-space: nowrap;
+  overflow: hidden;
+  opacity: 0;
+  -webkit-animation: type 5s steps(40, end);
+  animation: type3 5s steps(40, end);
+  -webkit-animation-delay: 5s;
+  animation-delay: 4s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+
+}
+
+.css-typing p:nth-child(4) {
+  white-space: nowrap;
+  overflow: hidden;
+  opacity: 0;
+  -webkit-animation: type 5s steps(40, end);
+  animation: type3 5s steps(40, end);
+  -webkit-animation-delay: 5s;
+  animation-delay: 7s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+
+}
+@keyframes type {
+  from {
+    width: 0;
+  }
+
+}
+
+@-webkit-keyframes type {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes type2 {
+  0% {
+    width: 0;
+  }
+  from {
+    opacity: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  to {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes type2 {
+  0% {
+    width: 0;
+  }
+  from {
+    opacity: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  to {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes type3 {
+  0% {
+    width: 0;
+  }
+  from {
+    opacity: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  to {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes type4 {
+  0% {
+    width: 0;
+  }
+  from {
+    opacity: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  to {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes type3 {
+  0% {
+    width: 0;
+  }
+  from {
+    opacity: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  to {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes type4 {
+  0% {
+    width: 0;
+  }
+  from {
+    opacity: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  to {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+.appear{
+
+display:block;
+
+margin-left: -200px;
+}
+
+
+
+#link{
+  color: white;
+}

@@ -1,0 +1,13 @@
+body, html {
+  padding: 0;
+}
+
+body {
+/*   background: rgba(241, 226, 215, 0.2); */
+  background: #49F2CC;
+}
+
+#button1, #button2 {
+  margin-top: 50px;
+  margin-left:100px;
+}

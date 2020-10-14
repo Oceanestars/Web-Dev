@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+body {
+
+  color:black;
+  text-align: center;
+  /*display: flex;*/
+  margin-top: auto;
+  font-family: Dosis,Montserrat, Amatic SC,cursive,sans-serif;
+  font-size: 30px;
+
+}
+p{
+  margin: auto auto;
+  color: white;
+  background: black;
+  font-family: Dosis,Montserrat, Amatic SC,cursive,sans-serif;
+  font-size: 30px;
+
+}
+input[type="button"]{
+  position: relative;
+  background-color: black;
+  text-align: center;
+  border: none;
+  font-size: 28px;
+  color: white;
+  padding: 20px;
+  width: 200px;
+
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+  font-family: Dosis,Montserrat, Amatic SC,cursive,sans-serif;
+}
+
+input:hover{
+  color: red;
+}
+
+#math{
+
+  margin-top: 100px;
+}
+img{
+  margin-top: 50px;
+}
