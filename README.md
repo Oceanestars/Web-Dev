@@ -12,6 +12,5 @@ As I dive deeper into the web development world I want to share some of my small
   * P5.JS
   * MO.JS
   * React (In progress)
-* API
-  * New York Times API (In progress)
-  * WEBGL (In progress)
+* API(In progress)
+  * WEBGL 
